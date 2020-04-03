@@ -8,5 +8,8 @@ class Student < User
     @knowledge << knowledge_item
   end
 
+  def knowledge
+    @knowledge
+  end
 
 end
